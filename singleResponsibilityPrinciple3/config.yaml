@@ -1,0 +1,6 @@
+message: Hello World again!
+blackAndWhite: true
+color: true
+singleMessage: true
+multipleMessages: true
+numberOfMessages: 2

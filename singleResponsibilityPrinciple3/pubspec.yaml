@@ -1,0 +1,3 @@
+name: singleResponsibilityPrinciple3
+dependencies:
+    safe_config: ^2.0.2

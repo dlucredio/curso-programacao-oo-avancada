@@ -1,0 +1,19 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "args",
+      "rootUri": "file:///Users/daniellucredio/.pub-cache/hosted/pub.dartlang.org/args-1.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "singleResponsibilityPrinciple2",
+      "rootUri": "../",
+      "packageUri": "lib/"
+    }
+  ],
+  "generated": "2020-09-25T19:59:51.139480Z",
+  "generator": "pub",
+  "generatorVersion": "2.9.3"
+}
