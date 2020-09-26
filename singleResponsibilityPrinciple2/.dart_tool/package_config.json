@@ -3,7 +3,7 @@
   "packages": [
     {
       "name": "args",
-      "rootUri": "file:///Users/daniellucredio/.pub-cache/hosted/pub.dartlang.org/args-1.6.0",
+      "rootUri": "file:///home/daniel/.pub-cache/hosted/pub.dartlang.org/args-1.6.0",
       "packageUri": "lib/",
       "languageVersion": "2.3"
     },
@@ -13,7 +13,7 @@
       "packageUri": "lib/"
     }
   ],
-  "generated": "2020-09-25T19:59:51.139480Z",
+  "generated": "2020-09-26T12:09:55.296093Z",
   "generator": "pub",
-  "generatorVersion": "2.9.3"
+  "generatorVersion": "2.10.0-7.3.beta"
 }
