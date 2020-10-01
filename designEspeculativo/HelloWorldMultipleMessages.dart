@@ -70,8 +70,7 @@ main() {
   var hello = HelloSubject();
   var colorObserver = HelloObserverColor();
   hello.attach(colorObserver);
-  HelloCommand c = HelloWorldSingleMessageCommand();
-  //HelloCommand c = HelloWorldMultipleMessagesCommand(5);
+  HelloCommand c = HelloWorldMultipleMessagesCommand(5);
   c.subject = hello;
   c.message = "Hello World";
   c.execute();

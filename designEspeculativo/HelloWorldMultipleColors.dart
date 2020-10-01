@@ -49,4 +49,7 @@ main() {
   hello.detach(bwObserver);
   hello.attach(colorObserver);
   hello.message = "Hello World in color!";
+  hello.attach(bwObserver);
+  hello.message = "Hello World in black and white "
+      "and color at the same time!";
 }
