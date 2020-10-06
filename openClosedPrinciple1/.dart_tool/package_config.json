@@ -1,0 +1,19 @@
+{
+  "configVersion": 2,
+  "packages": [
+    {
+      "name": "args",
+      "rootUri": "file:///Users/daniellucredio/.pub-cache/hosted/pub.dartlang.org/args-1.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.3"
+    },
+    {
+      "name": "openClosedPrinciple1",
+      "rootUri": "../",
+      "packageUri": "lib/"
+    }
+  ],
+  "generated": "2020-10-06T19:39:05.098269Z",
+  "generator": "pub",
+  "generatorVersion": "2.10.0"
+}
