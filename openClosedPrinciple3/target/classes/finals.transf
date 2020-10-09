@@ -1,0 +1,4 @@
+"Nome" copy [0]
+"Média provas" calculate ([1] + [2] + [3]) / 3.0
+"Média trabalhos" calculate ([4] + [5] + [6]) / 3.0
+"Média final" calculate ({1} * 7.0 + {2} * 3.0) / 10.0

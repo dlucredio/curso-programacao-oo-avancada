@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="br.ufscar.dc.pooa.ocp3.AppTest" time="0.05" tests="1" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="15"/>
+    <property name="sun.jnu.encoding" value="UTF-8"/>
+    <property name="java.class.path" value="/Users/daniellucredio/GitProjects/curso-programacao-oo-avancada/openClosedPrinciple3/target/test-classes:/Users/daniellucredio/GitProjects/curso-programacao-oo-avancada/openClosedPrinciple3/target/classes:/Users/daniellucredio/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/daniellucredio/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/daniellucredio/.m2/repository/org/antlr/antlr4/4.8-1/antlr4-4.8-1-complete.jar:/Users/daniellucredio/.m2/repository/org/antlr/antlr4-runtime/4.8-1/antlr4-runtime-4.8-1.jar:/Users/daniellucredio/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/Users/daniellucredio/.m2/repository/org/antlr/ST4/4.3/ST4-4.3.jar:/Users/daniellucredio/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/Users/daniellucredio/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/Users/daniellucredio/.m2/repository/com/ibm/icu/icu4j/61.1/icu4j-61.1.jar:"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="os.name" value="Mac OS X"/>
+    <property name="java.vm.specification.version" value="15"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk-15.jdk/Contents/Home/lib"/>
+    <property name="sun.java.command" value="/Users/daniellucredio/GitProjects/curso-programacao-oo-avancada/openClosedPrinciple3/target/surefire/surefirebooter4966305260572499738.jar /Users/daniellucredio/GitProjects/curso-programacao-oo-avancada/openClosedPrinciple3/target/surefire 2020-10-08T23-03-16_585-jvmRun1 surefire5901967502884889121tmp surefire_01622910071172403487tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="/Users/daniellucredio/GitProjects/curso-programacao-oo-avancada/openClosedPrinciple3/target/test-classes:/Users/daniellucredio/GitProjects/curso-programacao-oo-avancada/openClosedPrinciple3/target/classes:/Users/daniellucredio/.m2/repository/junit/junit/4.11/junit-4.11.jar:/Users/daniellucredio/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:/Users/daniellucredio/.m2/repository/org/antlr/antlr4/4.8-1/antlr4-4.8-1-complete.jar:/Users/daniellucredio/.m2/repository/org/antlr/antlr4-runtime/4.8-1/antlr4-runtime-4.8-1.jar:/Users/daniellucredio/.m2/repository/org/antlr/antlr-runtime/3.5.2/antlr-runtime-3.5.2.jar:/Users/daniellucredio/.m2/repository/org/antlr/ST4/4.3/ST4-4.3.jar:/Users/daniellucredio/.m2/repository/org/abego/treelayout/org.abego.treelayout.core/1.0.3/org.abego.treelayout.core-1.0.3.jar:/Users/daniellucredio/.m2/repository/org/glassfish/javax.json/1.0.4/javax.json-1.0.4.jar:/Users/daniellucredio/.m2/repository/com/ibm/icu/icu4j/61.1/icu4j-61.1.jar:"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="/Users/daniellucredio"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2020-09-15"/>
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk-15.jdk/Contents/Home"/>
+    <property name="file.separator" value="/"/>
+    <property name="basedir" value="/Users/daniellucredio/GitProjects/curso-programacao-oo-avancada/openClosedPrinciple3"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="/Users/daniellucredio/GitProjects/curso-programacao-oo-avancada/openClosedPrinciple3/target/surefire/surefirebooter4966305260572499738.jar"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="15+36-1562"/>
+    <property name="user.name" value="daniellucredio"/>
+    <property name="path.separator" value=":"/>
+    <property name="os.version" value="10.15.6"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="/Users/daniellucredio/.m2/repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="/var/folders/5x/5h41xq1j28b88p_t8_qn64bm0000gn/T/"/>
+    <property name="java.version" value="15"/>
+    <property name="user.dir" value="/Users/daniellucredio/GitProjects/curso-programacao-oo-avancada/openClosedPrinciple3"/>
+    <property name="os.arch" value="x86_64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.library.path" value="/Users/daniellucredio/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="15+36-1562"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
+    <property name="java.class.version" value="59.0"/>
+  </properties>
+  <testcase name="shouldAnswerWithTrue" classname="br.ufscar.dc.pooa.ocp3.AppTest" time="0.002"/>
+</testsuite>
