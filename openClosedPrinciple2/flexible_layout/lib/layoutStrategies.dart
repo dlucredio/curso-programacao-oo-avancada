@@ -1,10 +1,5 @@
 import 'package:flexible_layout/main.dart';
 
-abstract class LayoutStrategy {
-  void compose(List<Component> components, double lineSize,
-      List<int> lineBreaks, List<double> componentWidths);
-}
-
 class SqueezeToMinWidthStrategy extends LayoutStrategy {
   @override
   void compose(List<Component> components, double lineSize,

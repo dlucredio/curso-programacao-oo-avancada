@@ -38,6 +38,11 @@ class Component {
   Component(this.minWidth, this.maxWidth, this.content);
 }
 
+abstract class LayoutStrategy {
+  void compose(List<Component> components, double lineSize,
+      List<int> lineBreaks, List<double> componentWidths);
+}
+
 class _MyHomePageState extends State<MyHomePage> {
   List<Component> _components = List<Component>();
   LayoutStrategy _strategy;
@@ -55,7 +60,7 @@ class _MyHomePageState extends State<MyHomePage> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: _addContent,
-        tooltip: 'Increment',
+        tooltip: 'Add new component',
         child: Icon(Icons.add),
       ),
     );
