@@ -20,29 +20,30 @@ public class App {
             Document doc = Jsoup.connect("https://www.globo.com").get();
             Elements titles = doc.select("p.hui-premium__title");
             for (Element t : titles) {
-                pw.print("Principal;\"" + t.text() + "\";");
+                pw.print(String.format("Principal;%s;", t.text()));
                 Element parent = t.parent();
                 while (parent != null && !parent.tagName().equals("a")) {
                     parent = parent.parent();
                 }
                 if (parent != null && parent.tagName().equals("a")) {
-                    pw.print("\""+parent.attr("href")+"\"");
+                    pw.print(String.format("\"%s\"", parent.attr("href")));
                 }
                 pw.print("\n");
             }
-            
-            Elements titles2 = doc.select("p.hui-highlight-title");
-            for (Element t : titles2) {
-                pw.print("Secundário;\"" + t.text() + "\";");
+
+            titles = doc.select("p.hui-highlight-title");
+            for (Element t : titles) {
+                pw.print(String.format("Secundário;%s;", t.text()));
                 Element parent = t.parent();
                 while (parent != null && !parent.tagName().equals("a")) {
                     parent = parent.parent();
                 }
                 if (parent != null && parent.tagName().equals("a")) {
-                    pw.print("\""+parent.attr("href")+"\"");
+                    pw.print(String.format("\"%s\"", parent.attr("href")));
                 }
                 pw.print("\n");
-            }            
+            }
+
         }
     }
 }
